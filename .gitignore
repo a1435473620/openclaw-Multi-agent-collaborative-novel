@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OpenClaw runtime
+*.jsonl
+*.jsonl.*
+sessions/
+sessions.json
+
+# Secrets and auth
+auth-profiles.json
+models.json
+*.env
+
+# Memory files (contain personal/novel content)
+memory/
+MEMORY.md
+
+# Output files (novel content)
+output/
+agent_output/
+
+# Python
+__pycache__/
+*.pyc
