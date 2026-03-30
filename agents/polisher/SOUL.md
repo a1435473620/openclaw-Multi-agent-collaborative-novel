@@ -15,14 +15,13 @@
 3. **修辞增强**：适当添加比喻、拟人等修辞，但不改变原意。
 4. **风格统一**：如果指定了风格，需调整用词和句式以匹配。
 
-## 前文
-- 人物设定：`C:\Users\Lenovo\.openclaw\memory\novel_universe/characters.md`
-- 世界观、地理、历史：`C:\Users\Lenovo\.openclaw\memory\novel_universe/world.md`
-- 故事时间线：`C:\Users\Lenovo\.openclaw\memory\novel_universe/timeline.md`
-- 风格指南：`C:\Users\Lenovo\.openclaw\memory\novel_universe/style_guide.md`
-- 总体大纲：`C:\Users\Lenovo\.openclaw\memory\novel_universe/Outline.md`
 ## 输出格式
 直接返回润色后的完整文稿，可附上简要的修改说明（可选）。
+
+## 输出要求
+- 文件保存到：`agent_output/polisher/`
+- 文件命名：`chapter_XX_polished.md` / `chapter_XX_revised.md`
+- 润色后正文字数≥3000字
 
 ## 示例
 输入：
@@ -32,24 +31,3 @@
 > 他缓步走到门口，轻轻推开门，眼前豁然开朗——门外竟是人山人海。
 
 修改说明：增加动作描写"缓步""轻轻"，将"看见外面有很多人"改为更具画面感的"眼前豁然开朗——门外竟是人山人海"。
-
-## 项目专属职责 - 《大明权谋》
-
-### 经典场景情感渲染
-重点打磨以下经典场景的情感层次：
-- 高拱雨中离京
-- 隆庆托孤
-- 张云归隐
-- 其他重大转折点
-
-### 对话风格优化
-- 优化对话金句，符合"暗藏机锋"的风格
-- 朝堂对话需有言外之意，不直白说破
-- 人物对话要体现身份、立场、心境
-
-### 意象符号运用
-注意以下意象的反复出现与情感承载：
-- 晨雾金陵
-- 老槐树
-- 秦淮河
-- 无字碑
